@@ -2,7 +2,8 @@
 """
 Escriba el codigo que ejecute la accion solicitada.
 """
-
+import os
+import pandas as pd
 
 def pregunta_01():
     """
@@ -35,3 +36,4 @@ def pregunta_01():
     * Su código debe crear la carpeta `docs` si no existe.
 
     """
+    #creo la carpeta de salida si no existe
